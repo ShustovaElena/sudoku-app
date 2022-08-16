@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+.background {
+    padding-top: 200px;
+    width: 100%;
+    height: 385px;
+    background: url('./../../../public/vector-sudoku-game.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50% 35%;
+}
