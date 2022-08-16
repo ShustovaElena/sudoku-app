@@ -1,0 +1,17 @@
+.menu {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+.button:hover {
+    color: rgba(250, 103, 45, 0.5);
+    cursor: pointer;
+}
