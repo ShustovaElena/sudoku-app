@@ -5,6 +5,8 @@
 }
 
 .button {
+    padding-top: 30px;
+    color: #000000;
     text-transform: uppercase;
     text-decoration: none;
     background-color: transparent;
