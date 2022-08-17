@@ -1,0 +1,28 @@
+.not-found {
+    height: 550px;
+    /* width: 600px; */
+    background: url('../../../public/not-found.jpg') no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.button-to-home {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    background-color: rgb(245, 135, 62);
+    border-radius: 20px;
+    border: 2px solid rgb(83, 167, 173);
+}
+
+.button-to-home:hover {
+    background-color: rgb(83, 167, 173);
+    border: 2px solid rgb(245, 135, 62);
+    font-size: 0.9rem;
+    transition: all 0.5s;
+}
