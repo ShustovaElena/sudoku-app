@@ -1,10 +1,11 @@
 import './index.css';
+import { Link } from "react-router-dom";
 
 export const Menu = () => {
     return (
         <nav className="menu">
-            <button className="button">Правила игры</button> 
-            <button className="button">Статистика</button>
+            <Link to="/rules" className="button">Правила игры</Link>
+            <Link to="/statistic" className="button">Статистика</Link>
         </nav>
     );
 };
