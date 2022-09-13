@@ -30,14 +30,24 @@ export function getSudoku() {
     }
 
     return sudoku;
-  }
+}
 
-export function getFieldSudoku(emptyCount, sudokuArr) {
+const DIFFICULTY = {
+    "easy": 19,
+    "medium": 28,
+    "hard": 37,
+    "very-hard": 46,
+    "insane": 55,
+    "inhuman": 64,
+};
+
+export function getFieldSudoku(difficultyLevel, sudokuArr) {
+    console.log('level', difficultyLevel);
     const min = 0;
     const max = 8;
     const answers = {};
 
-    for (let i = 0; i < emptyCount; i++) {
+    for (let i = 0; i < DIFFICULTY[difficultyLevel]; i++) {
         const x = Math.floor(Math.random() * (max - min) + min);
         const y = Math.floor(Math.random() * (max - min) + min);
 
