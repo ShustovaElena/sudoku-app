@@ -1,0 +1,32 @@
+.table {
+    margin: 20px auto;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+
+.table-data {
+    margin: 0;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 2px solid rgb(201, 185, 183);
+}
+
+tr:nth-child(3n) {
+    border-bottom: 4px solid var(--main-color);
+}
+
+tr:nth-child(3n + 1) {
+    border-top: 4px solid var(--main-color);
+}
+
+td:nth-child(3n) {
+    border-right: 4px solid var(--main-color);
+}
+
+td:nth-child(3n + 1) {
+    border-left: 4px solid var(--main-color);
+}
